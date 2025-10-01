@@ -1,0 +1,90 @@
+.textarea-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.textarea-label {
+  font-weight: 500;
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.textarea {
+  width: 100%;
+  padding: 20px;
+  border: 2px solid #3a3a52;
+  border-radius: 12px;
+  font-size: 1rem;
+  line-height: 1.6;
+  resize: vertical;
+  min-height: 150px;
+  font-family: inherit;
+  background: #3a3a52;
+  color: white;
+}
+
+.textarea:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.textarea:hover:not(.textarea-disabled) {
+  border-color: #4a4a62;
+}
+
+.textarea-disabled {
+  background: #2c2c44;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.textarea::placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+.textarea::-webkit-input-placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+.textarea::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+.textarea-error {
+  border-color: #ff4757;
+}
+
+.textarea-error:focus {
+  border-color: #ff4757;
+  box-shadow: 0 0 0 3px rgba(255, 71, 87, 0.1);
+}
+
+.textarea-error-text {
+  color: #ff4757;
+  font-size: 0.8rem;
+  margin-top: 4px;
+}
+
+/* Custom scrollbar */
+.textarea::-webkit-scrollbar {
+  width: 8px;
+}
+
+.textarea::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.textarea::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.textarea::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}

@@ -1,0 +1,30 @@
+/* App-specific styles */
+.app {
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* Static styles only */
+.tts-container {
+  position: relative;
+}
+
+/* Custom scrollbar */
+.text-input::-webkit-scrollbar {
+  width: 8px;
+}
+
+.text-input::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.text-input::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.text-input::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
