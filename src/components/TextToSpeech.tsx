@@ -343,6 +343,14 @@ const TextToSpeech: React.FC = () => {
           </div>
         </div>
       )}
+      
+      {/* Footer */}
+      <footer className="app-footer">
+        <div className="footer-content">
+          <p>Developed by <strong>Lakshya Lalotra</strong></p>
+          <p>Contact: <a href="mailto:lakshyalalotra@gmail.com">lakshyalalotra@gmail.com</a></p>
+        </div>
+      </footer>
     </div>
   )
 }
